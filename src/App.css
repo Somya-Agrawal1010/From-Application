@@ -1,0 +1,124 @@
+/* App container */
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}
+
+/* Form container */
+.form-container {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  margin-bottom: 10px;
+}
+
+.form-heading button{
+  padding: 3px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  margin-inline: 19px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+/* Form editor and preview containers */
+.form-editor,
+.form-preview {
+  flex: 1;
+  padding: 20px;
+  border: 1px solid #ddd;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Form controls */
+.form-controls {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.form-controls input[type="text"],
+.form-controls select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Add field button */
+.form-controls button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.form-controls button:hover {
+  background-color: #0056b3;
+}
+
+/* Form fields container */
+.form-fields {
+  display: block;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+/* Preview button */
+.preview-btn {
+  margin-top: 20px;
+}
+
+/* Form preview styles */
+.form-preview form {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+
+.form-preview label {
+  font-weight: bold;
+}
+
+.form-preview input[type="text"],
+.form-preview textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.form-preview textarea {
+  resize: vertical;
+}
+
+.form-preview button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.form-preview button:hover {
+  background-color: #0056b3;
+}
+
+/* Individual form field */
+.form-field {
+  margin-bottom: 10px;
+}
+
+
